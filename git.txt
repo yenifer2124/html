@@ -1,0 +1,165 @@
+
+USUARIO@yenifer MINGW64 ~/Desktop (master)
+$ ls
+'~$ntallazosD.docx'               dos.jpg               'Publisher 2016.lnk'*
+'~$rmato final análisis().docx'  'Excel 2016.lnk'*       readme.md
+ Atom.lnk*                        HeidiSQL.lnk*         'Reparar Visualizador.reg'
+ AtomSetup-x64.exe*               javaproyecto           SENA/
+'Balsamiq Wireframes.lnk'*        MEmu.lnk*              SQL-Front.lnk*
+ bd_asis2020.sql                 'Microsoft Edge.lnk'*  'StarUML Setup 3.1.0.exe'*
+ Captura.png                      Multi-MEmu.lnk*        SumatraPDF.lnk*
+ capturas/                        netbeans.exe*         'TIPS _ Filtrar datos de un DataGridView en C#.mp4'
+'CASE Studio 2.lnk'*              netbeans64.exe*        todo/
+ coderise/                       'pp (1).jpg'           'Word 2016.lnk'*
+ DateChooser.jar                  pp.jpg                'xampp-control - Acceso directo.lnk'*
+ desktop.ini                      proyecto.zip
+
+USUARIO@yenifer MINGW64 ~/Desktop (master)
+$ cd coderise/
+
+USUARIO@yenifer MINGW64 ~/Desktop/coderise (master)
+$ ls
+ comment-out-html.txt                          inform-with-the-paragraph-element.txt
+ fill-in-the-blank-with-placeholder-text.txt   README.md
+ headline-with-the-h2-element.txt             'say-hello-to-html-elements (1).txt'
+'inform-with-the-paragraph-element (1).txt'    say-hello-to-html-elements.txt
+
+USUARIO@yenifer MINGW64 ~/Desktop/coderise (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   README.md
+        new file:   comment-out-html.txt
+        new file:   fill-in-the-blank-with-placeholder-text.txt
+        new file:   headline-with-the-h2-element.txt
+        new file:   inform-with-the-paragraph-element (1).txt
+        new file:   inform-with-the-paragraph-element.txt
+        new file:   say-hello-to-html-elements (1).txt
+        new file:   say-hello-to-html-elements.txt
+
+
+USUARIO@yenifer MINGW64 ~/Desktop/coderise (master)
+$ git remote add origin https://github.com/yenifer2124/coderiseHtml.git
+fatal: remote origin already exists.
+
+USUARIO@yenifer MINGW64 ~/Desktop/coderise (master)
+$ git push -u origin master
+error: src refspec master does not match any
+error: failed to push some refs to 'https://github.com/yenifer2124/coderiseHtml.git'
+
+USUARIO@yenifer MINGW64 ~/Desktop/coderise (master)
+$ git push -u origin master
+error: src refspec master does not match any
+error: failed to push some refs to 'https://github.com/yenifer2124/coderiseHtml.git'
+
+USUARIO@yenifer MINGW64 ~/Desktop/coderise (master)
+$
+
+USUARIO@yenifer MINGW64 ~/Desktop/coderise (master)
+$ cd ..
+
+USUARIO@yenifer MINGW64 ~/Desktop (master)
+$ cd coderise
+
+USUARIO@yenifer MINGW64 ~/Desktop/coderise
+$ git init
+Initialized empty Git repository in C:/Users/USUARIO/Desktop/coderise/.git/
+
+USUARIO@yenifer MINGW64 ~/Desktop/coderise (master)
+$ git add say-hello-to-html-elements README.md                                                                          fatal: pathspec 'say-hello-to-html-elements' did not match any files
+
+USUARIO@yenifer MINGW64 ~/Desktop/coderise (master)
+$ git add say-hello-to-html-elements.txt README.md                                                                      warning: LF will be replaced by CRLF in README.md.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in say-hello-to-html-elements.txt.
+The file will have its original line endings in your working directory
+
+USUARIO@yenifer MINGW64 ~/Desktop/coderise (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   README.md
+        new file:   say-hello-to-html-elements.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        comment-out-html.txt
+        fill-in-the-blank-with-placeholder-text.txt
+        headline-with-the-h2-element.txt
+        inform-with-the-paragraph-element (1).txt
+        say-hello-to-html-elements (1).txt
+
+
+USUARIO@yenifer MINGW64 ~/Desktop/coderise (master)
+$ git commit -m "ejercicios"
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'USUARIO@yenifer.(none)')
+
+USUARIO@yenifer MINGW64 ~/Desktop/coderise (master)
+$ git config --global user.email "yailes@misena.edu.co"
+
+USUARIO@yenifer MINGW64 ~/Desktop/coderise (master)
+$ git config --global user.name "yenifer"
+
+USUARIO@yenifer MINGW64 ~/Desktop/coderise (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   README.md
+        new file:   say-hello-to-html-elements.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        comment-out-html.txt
+        fill-in-the-blank-with-placeholder-text.txt
+        headline-with-the-h2-element.txt
+        inform-with-the-paragraph-element (1).txt
+        say-hello-to-html-elements (1).txt
+
+
+USUARIO@yenifer MINGW64 ~/Desktop/coderise (master)
+$ git commit -m "ejercicios"
+[master (root-commit) 855449e] ejercicios
+ 2 files changed, 4 insertions(+)
+ create mode 100644 README.md
+ create mode 100644 say-hello-to-html-elements.txt
+
+USUARIO@yenifer MINGW64 ~/Desktop/coderise (master)
+$ git remote add origin https://github.com/yenifer2124/coderiseHtml.git
+
+USUARIO@yenifer MINGW64 ~/Desktop/coderise (master)
+$ git push -u origin master
+Logon failed, use ctrl+c to cancel basic credential prompt.
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (4/4), 316 bytes | 79.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/yenifer2124/coderiseHtml.git
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
+USUARIO@yenifer MINGW64 ~/Desktop/coderise (master)

@@ -1,0 +1,4 @@
+<!DOCTYPE html>
+<html>
+ <h1>etiquetas</h1>
+</html>
